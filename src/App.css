@@ -1,11 +1,11 @@
 .backimg {
-  background-image: url("rick_and_morty_bg_mobile.png");
+  background-image: url("../public/rick_and_morty_bg_mobile.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
 
 .backimg2 {
-  background-image: url("rick_and_morty_bg_mobile2.png");
+  background-image: url("../public/rick_and_morty_bg_mobile2.png");
   background-size: 100vw 100vh;
 }
 
