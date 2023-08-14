@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+/* For screens with width less than 600px */
+@media (max-width: 600px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+/* For screens with width greater than 600px */
+@media (min-width: 601px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,18 @@
+.backimg {
+  background-image: url("rick_and_morty_bg_mobile.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.backimg2 {
+  background-image: url("rick_and_morty_bg_mobile2.png");
+  background-size: 100vw 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .backimg {
+    background-image: url("desktop_version.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+  }
+}
