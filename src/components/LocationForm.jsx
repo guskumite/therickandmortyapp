@@ -17,7 +17,7 @@ const LocationForm = ({ handleSubmit, knownDimensions }) => {
       onSubmit={handleSubmit}
     >
       <Select
-        className="text-black bg-[#355E33] h-[3vh] w-[45vw] mb-2"
+        className="text-black bg-[#355E33] h-[3vh] w-[45vw] mb-4"
         options={locations}
         name={"newLocation"}
       />
