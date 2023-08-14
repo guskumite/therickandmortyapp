@@ -13,11 +13,11 @@ const LocationForm = ({ handleSubmit, knownDimensions }) => {
 
   return (
     <form
-      className="flex items-stretch justify-center md:items-center ml-32 border-2 border-[#355E33] h-[9vh] w-[62vw]"
+      className="flex items-stretch justify-center md:items-center ml-32 border-2 border-[#355E33] h-[11vh] w-[62vw]"
       onSubmit={handleSubmit}
     >
       <Select
-        className="text-black bg-[#355E33] h-[3vh] w-[45vw] mb-8"
+        className="text-black bg-[#355E33] h-[3vh] w-[45vw] mb-8 mt-2"
         options={locations}
         name={"newLocation"}
       />
